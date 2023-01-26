@@ -14,13 +14,22 @@
   --light-color-text: #606770;
   --button-link: #e0e2e8;
   --stories-bg: #090909;
+} 
+body {
+  background: var(--bgcolor);
+  font-family: Helvetica, Arial, sans-serif; 
+  color: var(--fb-black);
 }
 
-body {
-  background-color: rgb(219, 232, 240);
+/********** header section & navbar **********/
+header {
+  /* background-color: var(--fb-whitebg); */
+  background-color: lightcoral; /* for testing */
+  height: 50px; 
+  display: flex;
 }
-/* header section & navbar */
-header > div, nav {
+/* header > div, nav {
   display: inline-block;
-}
+} */
+
 
